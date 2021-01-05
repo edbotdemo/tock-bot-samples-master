@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="BuildWorker" type="JetRunConfigurationType" factoryName="Kotlin">
+        <module name="tock-nlp-build-model-worker" />
+        <option name="VM_PARAMETERS" value="-Xmx4g" />
+        <option name="PROGRAM_PARAMETERS" value="" />
+        <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+        <option name="ALTERNATIVE_JRE_PATH" />
+        <option name="PASS_PARENT_ENVS" value="true" />
+        <option name="MAIN_CLASS_NAME" value="ai.tock.nlp.build.StartBuildWorkerKt" />
+        <option name="WORKING_DIRECTORY" value="" />
+        <envs>
+            <env name="tock_test_model_timeframe" value="0,24" />
+        </envs>
+        <method v="2">
+            <option name="Make" enabled="true" />
+        </method>
+    </configuration>
+</component>
